@@ -1,0 +1,83 @@
+# ======================
+# Go build artifacts
+# ======================
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ======================
+# Go workspace
+# ======================
+go.work
+go.work.sum
+
+# ======================
+# Runtime data (DO NOT COMMIT)
+# ======================
+projects/
+history/
+cache/
+tmp/
+temp/
+.session/
+workspace/
+output/
+results/
+
+# ======================
+# Certificates & secrets
+# ======================
+certs/*.key
+certs/*.pem
+certs/*.crt
+certs/*.p12
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+
+# ======================
+# Payload & wordlists (optional)
+# Uncomment if payloads are private
+# ======================
+# payloads/
+# wordlists/
+
+# ======================
+# Termux / Android
+# ======================
+*.pid
+.termux/
+.termux-build/
+termux.properties
+
+# ======================
+# OS / Editor junk
+# ======================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ======================
+# Test & fuzz artifacts
+# ======================
+fuzz/
+coverage/
+*.cov
+
+# ======================
+# Temporary downloads
+# ======================
+downloads/
